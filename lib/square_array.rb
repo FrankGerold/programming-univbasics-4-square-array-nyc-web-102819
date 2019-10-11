@@ -5,4 +5,5 @@ def square_array(array, power = 2)
     new_array[counter] = array[counter] ** power
     counter += 1
   end
+  new_array
 end
